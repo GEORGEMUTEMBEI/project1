@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <title>{{config('app.name')}}</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -39,7 +39,7 @@
     </main>
  <!-- footer section start -->
  <footer>
-    <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    <span>Created By <a href="https://www.linkedin.com/in/georgemutembei/" target="_blank">George Mutembei</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
 </footer>
 
 <script src="app.js"></script>
